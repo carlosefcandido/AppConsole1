@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MinhasClasses\Class1.cs" />
+    <Compile Include="MinhasClasses\Caminhao.cs" />
+    <Compile Include="MinhasClasses\Carro.cs" />
+    <Compile Include="MinhasClasses\Motocicleta.cs" />
+    <Compile Include="MinhasClasses\Veiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,10 +11,12 @@ namespace AppConsole1
     {
         static void Main(string[] args)
         {
-            int valor = 3;
-            string teste = valor.ToString();
-            Class1 variavel = new Class1();
-            1231213123144444444
+            var palio = new Carro();
+            palio.Chassi = "123123123123123123123123123";
+            palio.Fabricante = "Fiat";
+
+            Console.WriteLine(palio.Fabricante);
+            Console.Read();
 
         }
     }

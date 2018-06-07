@@ -5,10 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AppConsole1.MinhasClasses
-
 {
-    class Class1
+    class Caminhao
     {
-
     }
 }
