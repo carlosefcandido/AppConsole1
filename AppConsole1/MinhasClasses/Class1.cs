@@ -9,5 +9,6 @@ namespace AppConsole1.MinhasClasses
 {
     class Class1
     {
+
     }
 }
