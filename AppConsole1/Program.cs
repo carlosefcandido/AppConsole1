@@ -14,6 +14,7 @@ namespace AppConsole1
             int valor = 3;
             string teste = valor.ToString();
             Class1 variavel = new Class1();
+            12312131231
 
         }
     }
