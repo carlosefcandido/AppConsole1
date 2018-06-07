@@ -10,6 +10,9 @@ namespace AppConsole1
     {
         static void Main(string[] args)
         {
+            int valor = 3;
+            string teste = valor.ToString();
+
         }
     }
 }
