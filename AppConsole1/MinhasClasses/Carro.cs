@@ -8,6 +8,6 @@ namespace AppConsole1.MinhasClasses
 {
     class Carro : Veiculo
     {
-
+       public int QuatidadePortas;
     }
 }

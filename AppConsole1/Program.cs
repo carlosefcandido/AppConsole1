@@ -11,11 +11,18 @@ namespace AppConsole1
     {
         static void Main(string[] args)
         {
-            var palio = new Carro();
+            Carro palio = new Carro();
             palio.Chassi = "123123123123123123123123123";
             palio.Fabricante = "Fiat";
+            palio.QuatidadePortas = 4;
 
-            Console.WriteLine(palio.Fabricante);
+            Caminhao volvo = new Caminhao();
+            volvo.TipoBoleia = "sim";
+
+            Motocicleta susuki = new Motocicleta();
+            susuki.ContemSideCar = false; 
+
+            Console.WriteLine("Fabricante: {0} - Portas: {1}", palio.Fabricante, palio.QuatidadePortas);
             Console.Read();
 
         }

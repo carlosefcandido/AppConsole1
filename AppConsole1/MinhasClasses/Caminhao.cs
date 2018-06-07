@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AppConsole1.MinhasClasses
 {
-    class Caminhao
+    class Caminhao : Veiculo
     {
+        public string TipoBoleia;
     }
 }

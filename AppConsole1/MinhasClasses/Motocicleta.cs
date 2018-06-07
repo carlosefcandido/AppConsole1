@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AppConsole1.MinhasClasses
 {
-    class Motocicleta
+    class Motocicleta : Veiculo
     {
+        public bool ContemSideCar;
     }
 }
