@@ -5,12 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AppConsole1.MinhasClasses
-
 {
-    class Veiculo
+    class CarroAnfibio : Carro
     {
-        public string Chassi = "";
-        public string Fabricante = "";
-        public string CorPredominante = "";
+        public int QuantidadeRemos;
     }
 }

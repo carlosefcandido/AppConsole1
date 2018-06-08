@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="MinhasClasses\Caminhao.cs" />
     <Compile Include="MinhasClasses\Carro.cs" />
+    <Compile Include="MinhasClasses\CarroAnfibio.cs" />
     <Compile Include="MinhasClasses\Motocicleta.cs" />
     <Compile Include="MinhasClasses\Veiculo.cs" />
     <Compile Include="Program.cs" />
